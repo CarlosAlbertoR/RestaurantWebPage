@@ -1,1 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/*Global Styles*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modifier {
+    width: 100%;
+    margin: auto;
+}
+
+
+/*End Global Styles*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.headboard {
+    width: 100%;
+}
+
+.logo {
+    float: right;
+    width: 100%;
+}
+
+.stripe {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.icon-bars {
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5em;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+.menu {
+    height: 0;
+    margin-top: 50px;
+    overflow: hidden;
+    transition: height .3s linear;
+    width: 100%;
+    z-index: 1000;
+}
+
+.show {
+    height: 300px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    background: #fba919;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link:hover {
+    background: #d30203;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.title {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.button {
+    border: 2px solid #d30203;
+    border-radius: 20px;
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #d30203;
+}
