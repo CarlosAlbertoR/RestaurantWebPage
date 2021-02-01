@@ -202,6 +202,7 @@ header {
     height: 80px;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 10px;
     width: 80px;
 }
 
@@ -262,4 +263,61 @@ header {
     color: #d30203;
     margin: 10px;
     position: relative;
+}
+
+
+/*SCustomers Testimonials Section Styles*/
+
+.customers {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo2.jpg);
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+.customers_title {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.customers_title::after {
+    background: white;
+    content: '';
+    display: block;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.testimonials {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.testimonials_text {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 10px;
+}
+
+.profile_img {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.profile_name {
+    margin-top: -80px;
+    margin-left: 150px;
+    margin-bottom: 30px;
 }
