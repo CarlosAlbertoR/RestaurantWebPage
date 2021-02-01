@@ -21,7 +21,7 @@
 }
 
 
-/*End Global Styles*/
+/*Header Styles*/
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo2.jpg);
@@ -113,4 +113,54 @@ header {
 
 .button:hover {
     background: #d30203;
+}
+
+
+/*Featured Section Styles*/
+
+.featured {
+    width: 100%;
+}
+
+.featured_title {
+    color: #d30203;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.featured_title::after {
+    background: #d30203;
+    content: '';
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 4px;
+    width: 250px;
+}
+
+.promo {
+    margin: 5px;
+    width: 100%;
+}
+
+.promo [class*="icon-"]::before {
+    color: #d30203;
+    display: block;
+    font-size: 80px;
+    text-align: center;
+}
+
+.title_promo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.text_promo {
+    font-size: 20px;
+    line-height: 30px;
 }
