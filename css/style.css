@@ -24,7 +24,7 @@
 /*Header Styles*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -209,4 +209,57 @@ header {
     line-height: 25px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+
+/*Sucursales Section Styles*/
+
+.sucursales {
+    width: 100%;
+}
+
+.sucursales_title {
+    color: #d30203;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.sucursales_title::after {
+    background: #d30203;
+    content: '';
+    display: block;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 320px;
+}
+
+.stores {
+    width: 100%;
+}
+
+.store_title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.store_img {
+    width: 100%;
+}
+
+.store_list {
+    line-height: 30px;
+    list-style: none;
+}
+
+.stores [class*="icon-asterisk"]::before {
+    color: #d30203;
+    margin: 10px;
+    position: relative;
 }
