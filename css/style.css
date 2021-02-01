@@ -164,3 +164,49 @@ header {
     font-size: 20px;
     line-height: 30px;
 }
+
+
+/*Phone Section Styles*/
+
+.phone {
+    width: 100%;
+}
+
+.phone_title {
+    color: #d30203;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.phone_title::after {
+    background: #d30203;
+    content: '';
+    display: block;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 310px;
+}
+
+.phone_img {
+    width: 100%;
+}
+
+.number {
+    align-items: center;
+    border: 2px solid #d30203;
+    border-radius: 50%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80px;
+}
+
+.description_text {
+    line-height: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
