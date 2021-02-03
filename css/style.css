@@ -40,7 +40,8 @@ header {
 }
 
 .stripe {
-    margin-top: 40px;
+    margin-left: 290px;
+    margin-top: -110px;
     width: 100%;
 }
 
@@ -116,13 +117,13 @@ header {
 }
 
 
-/*Featured Section Styles*/
+/*Main Section Styles*/
 
-.featured {
+.main {
     width: 100%;
 }
 
-.featured_title {
+.main_title {
     color: #d30203;
     font-size: 40px;
     margin-bottom: 20px;
@@ -131,7 +132,7 @@ header {
     width: 100%;
 }
 
-.featured_title::after {
+.main_title::after {
     background: #d30203;
     content: '';
     display: block;
@@ -153,14 +154,14 @@ header {
     text-align: center;
 }
 
-.title_promo {
+.promo_title {
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
     width: 100%;
 }
 
-.text_promo {
+.promo_text {
     font-size: 20px;
     line-height: 30px;
 }
@@ -169,6 +170,7 @@ header {
 /*Phone Section Styles*/
 
 .phone {
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -191,6 +193,7 @@ header {
 }
 
 .phone_img {
+    padding: 10px 30px;
     width: 100%;
 }
 
@@ -213,13 +216,13 @@ header {
 }
 
 
-/*Sucursales Section Styles*/
+/*branch_office Section Styles*/
 
-.sucursales {
+.branch_office {
     width: 100%;
 }
 
-.sucursales_title {
+.branch_office_title {
     color: #d30203;
     font-size: 30px;
     margin-bottom: 20px;
@@ -228,7 +231,7 @@ header {
     width: 100%;
 }
 
-.sucursales_title::after {
+.branch_office_title::after {
     background: #d30203;
     content: '';
     display: block;
@@ -266,12 +269,13 @@ header {
 }
 
 
-/*SCustomers Testimonials Section Styles*/
+/*Customers Testimonials Section Styles*/
 
 .customers {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo3.jpg);
     background-size: cover;
     color: white;
+    margin-top: 40px;
     width: 100%;
 }
 
@@ -320,4 +324,55 @@ header {
     margin-top: -80px;
     margin-left: 150px;
     margin-bottom: 30px;
+}
+
+
+/*Footer Styles*/
+
+footer {
+    background: #17263c;
+    color: white;
+}
+
+.pie {
+    width: 100%;
+}
+
+.pie_item {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.pie_title {
+    text-align: center;
+    width: 100%;
+}
+
+.pie_text {
+    margin: 10px;
+}
+
+.pie_list {
+    list-style: none;
+}
+
+.pie_link {
+    color: white;
+    display: block;
+    line-height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pie_link:hover {
+    opacity: .5;
+}
+
+.copyright {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
 }
