@@ -215,9 +215,7 @@ header {
 
 .description_text {
     line-height: 25px;
-    margin: 0 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 
@@ -278,6 +276,7 @@ header {
 
 .customers {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo3.jpg);
+    background-position: center;
     background-size: cover;
     color: white;
     margin-top: 40px;
@@ -481,6 +480,34 @@ footer {
     }
 }
 
+@media screen and (min-width:1300px) {
+    .modifier {
+        width: 1200px;
+    }
+    .description_text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .branch_office {
+        margin: 0 80px;
+        justify-content: space-between;
+    }
+    .stores {
+        margin: 0 40px;
+        width: 35%;
+    }
+    .foot_item {
+        width: 30%;
+    }
+    .customers {
+        width: 100%;
+    }
+    .foot {
+        align-items: flex-start;
+        width: 100%;
+    }
+}
+
 @media screen and (min-width:1600px) {
     .modifier {
         width: 1400px;
@@ -510,5 +537,6 @@ footer {
     }
     .foot {
         align-items: flex-start;
+        width: 100%;
     }
 }
