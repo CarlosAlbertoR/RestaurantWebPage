@@ -1,0 +1,139 @@
+.contact {
+    width: 100%;
+}
+
+.contact_title {
+    color: #d30203;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.contact_title::after {
+    background: #d30203;
+    content: '';
+    display: block;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 230px;
+}
+
+.contact_info {
+    width: 100%;
+}
+
+.info_title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.info_text {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px;
+}
+
+.info_link {
+    color: black;
+    display: block;
+    font-size: 18px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.info_link[class*="icon-"]::before {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contact_form {
+    background: #101010;
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+}
+
+.contact_label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contact_input {
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    width: 100%;
+}
+
+.contact_buton {
+    background: #d30203;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    width: 150px;
+}
+
+.contact_buton:hover {
+    background: crimson;
+}
+
+@media screen and (min-width:768px) {
+    .info_text {
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .modifier {
+        width: 1000px;
+    }
+    .contact {
+        align-items: flex-start;
+    }
+    .contact_info {
+        margin: 10px;
+        width: 45%;
+    }
+    .contact_form {
+        margin-bottom: 20px;
+    }
+    .foot {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .modifier {
+        width: 1200px;
+    }
+    .contact_info {
+        margin: 10px 30px;
+    }
+    .foot {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .modifier {
+        width: 1400px;
+    }
+    .foot {
+        width: 100%;
+    }
+}
