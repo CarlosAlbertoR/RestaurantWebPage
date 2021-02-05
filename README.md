@@ -1,7 +1,11 @@
 # Restaurant Website
-![](./ScreenshotWebPage1.png)
-![](./ScreenshotWebPage2.png)
+* Home Page
+![](./ScreenshotWebPage1.jpg)
+* About Us Page
+![](./ScreenshotWebPage2.jpg)
+* Products Page
 ![](./ScreenshotWebPage3.png)
+* Contact Page
 ![](./ScreenshotWebPage4.png)
 
 # Description
