@@ -1,0 +1,109 @@
+.products {
+    width: 100%;
+}
+
+.carta_title {
+    color: #d30203;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.carta_title::after {
+    background: #d30203;
+    content: '';
+    display: block;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.carta {
+    width: 100%;
+}
+
+.carta_img {
+    width: 100%;
+}
+
+.plato_title {
+    color: #d30203;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.carta_text {
+    margin: 10px;
+}
+
+.buy {
+    background: #d30203;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    width: 150px;
+}
+
+.buy:hover {
+    background: crimson;
+}
+
+@media screen and (min-width:768px) {
+    .carta {
+        margin: 10px;
+        width: 45%;
+    }
+    .carta_title::after {
+        width: 330px;
+    }
+    .carta_text {
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .products {
+        align-items: flex-start;
+    }
+    .carta {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .modifier {
+        width: 1000px;
+    }
+    .foot {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .modifier {
+        width: 1200px;
+    }
+    .foot {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .modifier {
+        width: 1400px;
+    }
+    .foot {
+        width: 100%;
+    }
+}

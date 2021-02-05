@@ -36,12 +36,17 @@ header {
 
 .logo {
     float: right;
+    margin-top: 10px;
     width: 100%;
+}
+
+.logo_img {
+    width: 120px;
 }
 
 .stripe {
     margin-left: 290px;
-    margin-top: -110px;
+    margin-top: -130px;
     width: 100%;
 }
 
@@ -396,6 +401,7 @@ footer {
     }
     .title {
         font-size: 65px;
+        margin-top: 90px;
     }
     .promo {
         margin: 20px;
@@ -458,6 +464,12 @@ footer {
     .modifier {
         width: 1000px;
     }
+    .logo {
+        width: 1900%;
+    }
+    .logo_img {
+        width: 150px;
+    }
     .title {
         font-size: 80px;
     }
@@ -467,16 +479,20 @@ footer {
     .menu {
         display: flex;
         height: auto;
-        margin-top: -150px;
+        margin-top: -250px;
         margin-left: 50%;
         width: auto;
     }
     .link {
         margin-left: 15px;
-        border-radius: 5%;
+        border-radius: 10px;
     }
     .customers {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo2.jpg);
+        width: 100%;
+    }
+    .foot {
+        width: 100%;
     }
 }
 
@@ -531,6 +547,7 @@ footer {
     }
     .customers {
         align-items: flex-start;
+        width: 100%;
     }
     .foot_item {
         width: 30%;
