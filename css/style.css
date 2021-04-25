@@ -24,7 +24,7 @@
 /*Header Styles*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondo.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -41,7 +41,7 @@ header {
 }
 
 .logo_img {
-    width: 120px;
+    width: 100px;
 }
 
 .stripe {
@@ -280,7 +280,7 @@ header {
 /*Customers Testimonials Section Styles*/
 
 .customers {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondo3.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -488,7 +488,7 @@ footer {
         border-radius: 10px;
     }
     .customers {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondo2.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img/fondo2.jpg);
         width: 100%;
     }
     .foot {
